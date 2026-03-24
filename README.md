@@ -14,18 +14,17 @@ Built using **HTML, CSS, and JavaScript**.
 
 ![priview](Code/wpp.png)
 
-
 ---
 
 ## 📸 Preview
 
 Upload your exported WhatsApp chat file and instantly see the conversation in a clean WhatsApp-style layout.
 
-```
+
 Upload Chat (.txt)
-        ↓
+↓
 Beautiful WhatsApp Style Chat Interface
-```
+
 
 ---
 
@@ -52,11 +51,13 @@ Beautiful WhatsApp Style Chat Interface
 
 ## 📂 Project Structure
 
-```
+
 whatsapp-inbox-viewer
-│
+```
+│📂Code
 ├── index.html
 ├── funtion.js
+├── style.css
 └── README.md
 ```
 
@@ -85,11 +86,52 @@ Your chat will instantly appear in a **WhatsApp-style interface**.
 
 ---
 
-## 👨‍💻 Author
+## 📌 Update History
 
-**Murad Hasan Hridoy**
+### <i style="color:#25D366;">12 March 2026</i>
+* Initial project upload
+* Basic WhatsApp-style chat viewer
+* File upload and parsing implemented
+* User and other messages styled with bubbles
+* Auto scroll to latest message
+* Responsive layout
 
-GitHub:
+### <i style="color:#25D366;">24 March 2026</i>
+
+* ✅ Added **Seen / Double Tick ✔✔** for user messages
+* ✅ Added **First Message Scroll Button (1️⃣)**
+* ✅ Added **Search Highlight** (yellow color)
+* ✅ Added **Filter by Sender** (All/User/Other)
+* ✅ Added **Dark / Light Mode Toggle 🌙**
+* ✅ Added **Media Detection (`<Media omitted>`)**
+* ✅ Added **Statistics Panel** (total, user, other messages)
+* ✅ Smooth scrolling on load and navigation
+* ✅ Updated responsive layout and UI enhancements
+
+
+## New Update Demo View
+
+![priview](Code/up.png)
+
+----
+
+![priview](Code/up1.png)
+
+---
+![priview](Code/up2.png)
+
+----
+
+![priview](Code/up3.png)
+
+---
+
+## <b> Author</b>
+
+**Murad Hasan Hridoy**  
+
+GitHub:  
+
 https://github.com/mhhridoy7907
 
 ---
