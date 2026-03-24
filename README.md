@@ -6,6 +6,15 @@ A simple and beautiful **WhatsApp chat viewer** that converts exported **.txt ch
 
 Built using **HTML, CSS, and JavaScript**.
 
+
+## 🎥 Demo Video
+
+<p align="center">
+  <a href="https://youtu.be/VfxzIJI9DPc?si=vTGTLrCXx8CnCmpz">
+    <img src="https://img.youtube.com/vi/VfxzIJI9DPc/maxresdefault.jpg" width="700">
+  </a>
+</p>
+
 ## DemoView
 
 ![priview](Code/wp.png)
