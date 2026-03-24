@@ -15,6 +15,8 @@ Built using **HTML, CSS, and JavaScript**.
   </a>
 </p>
 
+---
+
 ## DemoView
 
 ![priview](Code/wp.png)
