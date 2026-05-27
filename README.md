@@ -6,6 +6,10 @@ A simple and beautiful **WhatsApp chat viewer** that converts exported **.txt ch
 
 Built using **HTML, CSS, and JavaScript**.
 
+## Live Preview
+
+🔗 Live Preview & Use the App: https://inbox-viewer.netlify.app/
+
 
 ## 🎥 Demo Video
 
