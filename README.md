@@ -8,7 +8,7 @@ Built using **HTML, CSS, and JavaScript**.
 
 ## Live Preview
 
-🔗 Live Preview & Use the App: https://inbox-viewer.netlify.app/
+🔗 Live Preview & Use the App: https://chatviewer-2d185.web.app/
 
 
 ## 🎥 Demo Video
