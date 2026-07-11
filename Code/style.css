@@ -1,4 +1,4 @@
-body{
+body{ 
     margin:0;
     font-family:Segoe UI;
     background:#000;
@@ -9,14 +9,13 @@ body{
     transition:.3s;
 }
 
-header{
+header{ 
     background:#075E54;
     padding:12px;
     text-align:center;
     font-size:20px;
     font-weight:bold;
 }
-
 .topbar{
     display:flex;
     gap:8px;
