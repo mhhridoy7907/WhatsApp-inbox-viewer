@@ -1,11 +1,16 @@
 
+
+
 # WhatsApp Inbox Viewer
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-mhhridoy7907-blue?logo=github)](https://github.com/mhhridoy7907)
+
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 [![Version](https://img.shields.io/badge/Version-2.0-blue)](https://github.com/mhhridoy7907)
+
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
 A modern, lightweight WhatsApp chat viewer that transforms exported `.txt` chat files into an elegant, native WhatsApp-style interface. Built with vanilla HTML, CSS, and JavaScript for instant, browser-based chat visualization.
