@@ -1,3 +1,5 @@
+/*main js*/
+
 const input=document.getElementById("fileInput");
 const chat=document.getElementById("chat");
 const stats=document.getElementById("stats");
