@@ -1,322 +1,469 @@
-
-
-
 # WhatsApp Inbox Viewer
 
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-mhhridoy7907-blue?logo=github)](https://github.com/mhhridoy7907)
-
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-
-[![Version](https://img.shields.io/badge/Version-2.0-blue)](https://github.com/mhhridoy7907)
-
+[![Version](https://img.shields.io/badge/Version-2.0-blue)](https://github.com/mhhridoy7907/whatsapp-inbox-viewer)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-A modern, lightweight WhatsApp chat viewer that transforms exported `.txt` chat files into an elegant, native WhatsApp-style interface. Built with vanilla HTML, CSS, and JavaScript for instant, browser-based chat visualization.
+**A lightweight, privacy-focused WhatsApp chat viewer for exported `.txt` conversations.**
 
-[Live Demo](https://chatviewer-2d185.web.app/) • [GitHub](https://github.com/mhhridoy7907) • [Report Bug](https://github.com/mhhridoy7907/issues)
+Transform plain WhatsApp chat exports into a clean, searchable, filterable, and WhatsApp-inspired chat interface — directly in your browser.
+
+[**Live Demo**](https://chatviewer-2d185.web.app/) • [**Repository**](https://github.com/mhhridoy7907/whatsapp-inbox-viewer) • [**Report a Bug**](https://github.com/mhhridoy7907/whatsapp-inbox-viewer/issues)
 
 </div>
+
+---
+
+## 🎯 Project Purpose
+
+**WhatsApp Inbox Viewer** was created to solve a simple but practical problem: **WhatsApp chat data can become difficult to access, review, and analyze when conversations become very large or when the original chat is no longer available in WhatsApp.**
+
+Users can export WhatsApp conversations as `.txt` files, but large exported conversations are difficult to read and navigate because they are stored as plain text.
+
+This project transforms those exported chat files into a **clean, searchable, filterable, and interactive WhatsApp-inspired interface** directly in the browser.
+
+### 💡 Why Was It Built?
+
+The project was built to help users:
+
+* 📂 Keep a readable copy of important WhatsApp conversations after exporting them.
+* 🔎 Quickly search for specific words, names, or messages in large conversations.
+* 🏷️ Filter messages between the user's messages and other participants' messages.
+* 📊 View basic chat statistics such as total, sent, and received messages.
+* 🕒 Navigate through long conversations more easily.
+* 📝 Review old conversations without opening WhatsApp.
+* 🔐 Analyze exported chat data privately without sending it to a backend server.
+
+### 🧩 Problem It Solves
+
+When a WhatsApp conversation contains thousands of messages, finding a specific message or reviewing the overall conversation can become difficult.
+
+A user may also export a conversation for backup and later lose access to the original WhatsApp chat. The exported `.txt` file still contains the conversation, but reading and analyzing it as raw text is inconvenient.
+
+**WhatsApp Inbox Viewer bridges this gap by converting the exported text into an interactive chat-viewing experience.**
+
+### 🔍 What Can Be Done With It?
+
+A user can export a WhatsApp conversation and then:
+
+1. Upload the exported `.txt` file.
+2. View the conversation in a WhatsApp-inspired interface.
+3. Search for specific keywords or messages.
+4. Filter messages by sender.
+5. View basic chat statistics.
+6. Navigate through long conversations more easily.
+7. Review the conversation without uploading the chat content to a server.
+
+### 🔐 Privacy by Design
+
+The uploaded chat file is processed **directly in the browser**. The application does not require a backend server to process the conversation.
+
+This allows users to review potentially sensitive conversations while keeping the chat data on their own device.
+
+> **Important:** WhatsApp Inbox Viewer does **not** recover deleted messages from WhatsApp servers. It can only display and analyze chat data that the user already has, such as an exported `.txt` file.
 
 ---
 
 ## 📸 Screenshots
 
 ### Main Interface
-![WhatsApp Chat Viewer Preview](Code/wp.png)
-*WhatsApp-style chat interface with message bubbles*
 
-### Recent Features
+![WhatsApp Chat Viewer Preview](Code/wp.png)
+
+*WhatsApp-inspired chat interface with message bubbles.*
+
+### Dark Mode & Filters
+
 ![Dark Mode & Filters](Code/up1.png)
-*Dark/Light mode toggle and message filtering*
+
+*Theme switching and message filtering.*
+
+### Search & Statistics
 
 ![Search & Statistics](Code/up2.png)
-*Advanced search highlighting and chat statistics*
+
+*Message search, highlighting, and chat statistics.*
 
 ---
 
 ## ✨ Features
 
 ### Core Features
-- 📤 **Easy Upload** - Drag-and-drop or click to upload WhatsApp exported `.txt` files
-- 💬 **Chat Bubbles** - Native WhatsApp-style message bubbles with proper styling
-- 🟢 **User Differentiation** - Green bubbles for your messages, dark for others
-- 🕒 **Message Metadata** - Timestamp and sender name for each message
-- ⚡ **Instant Rendering** - Zero backend required, everything happens in your browser
+
+* 📤 **Easy Chat Upload** — Upload or drag-and-drop exported WhatsApp `.txt` files.
+* 💬 **WhatsApp-Inspired Chat UI** — View messages using familiar chat bubbles.
+* 🟢 **User Differentiation** — Visually distinguish your messages from other participants.
+* 🕒 **Message Metadata** — Display timestamps and sender names.
+* ⚡ **Instant Rendering** — Process and display chats directly in the browser.
+* 📱 **Responsive Design** — Works across desktop and mobile devices.
 
 ### Advanced Features
-- 🌙 **Dark/Light Mode** - Toggle between themes for comfortable viewing
-- 🔍 **Search & Highlight** - Find messages with yellow highlighting
-- 🏷️ **Message Filtering** - Filter by All messages, User only, or Others only
-- ✔✔ **Read Receipts** - Seen/double-tick indicators for sent messages
-- 📊 **Chat Statistics** - View total, user, and other message counts
-- 🖼️ **Media Detection** - Identify media-omitted messages
-- 1️⃣ **Navigation** - Jump to first message with quick navigation button
-- 📱 **Responsive Design** - Fully optimized for desktop and mobile devices
-- ⚡ **Smooth Scrolling** - Auto-scroll to latest messages on load
+
+* 🌙 **Dark & Light Mode** — Switch between themes for comfortable viewing.
+* 🔍 **Search & Highlight** — Search messages and highlight matching text.
+* 🏷️ **Message Filtering** — Filter between all, user, and other messages.
+* ✔✔ **WhatsApp-Style Read Indicators** — Display double-tick indicators for sent messages.
+* 📊 **Chat Statistics** — View total, sent, and received message counts.
+* 🖼️ **Media Detection** — Detect `<Media omitted>` messages.
+* 🧭 **Quick Navigation** — Jump through the conversation easily.
+* ⚡ **Smooth Scrolling** — Automatically navigate to the latest messages.
+* 🔒 **Client-Side Processing** — Chat content does not need to be uploaded to a backend.
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Any modern web browser (Chrome, Firefox, Safari, Edge)
-- An exported WhatsApp chat file (`.txt` format)
 
-### How to Export WhatsApp Chat
+You only need:
 
-1. Open **WhatsApp** on your device
-2. Navigate to the chat you want to export
-3. Tap **Menu** (three dots) → **More** → **Export Chat**
-4. Select **Without Media** (recommended for faster processing)
-5. Save the `.txt` file to your device
+* A modern web browser such as Chrome, Firefox, Safari, or Edge.
+* An exported WhatsApp chat file in `.txt` format.
 
-### Using the App
+### Export a WhatsApp Chat
 
-1. Visit [WhatsApp Inbox Viewer](https://chatviewer-2d185.web.app/)
-2. Click **"Upload Chat (.txt)"** or drag-and-drop your file
-3. The chat will instantly render in WhatsApp-style format
-4. Use the controls to search, filter, and navigate
+1. Open **WhatsApp** on your phone.
+2. Open the conversation you want to export.
+3. Open the **Menu** (`⋮`) → **More** → **Export Chat**.
+4. Select **Without Media** for a smaller and faster export.
+5. Save the exported `.txt` file.
+
+### Use the Application
+
+1. Open the [**WhatsApp Inbox Viewer**](https://chatviewer-2d185.web.app/).
+2. Click **Upload Chat (.txt)** or drag and drop your file.
+3. The conversation will be parsed and displayed automatically.
+4. Use search, filters, navigation, themes, and statistics to explore the chat.
 
 ---
 
-## 💻 Installation (Local Setup)
+## 💻 Installation
 
 ### Clone the Repository
+
 ```bash
 git clone https://github.com/mhhridoy7907/whatsapp-inbox-viewer.git
 cd whatsapp-inbox-viewer/Code
 ```
 
 ### Run Locally
-Simply open `index.html` in your web browser:
 
-**Option 1: Direct File**
+You can open `index.html` directly in your browser.
+
+#### Windows
+
 ```bash
-# On Windows
 start index.html
+```
 
-# On macOS
+#### macOS
+
+```bash
 open index.html
+```
 
-# On Linux
+#### Linux
+
+```bash
 xdg-open index.html
 ```
 
-**Option 2: Local Server (Recommended)**
+### Recommended: Local Development Server
+
+Using Python:
+
 ```bash
-# Using Python 3
 python -m http.server 8000
+```
 
-# Using Python 2
-python -m SimpleHTTPServer 8000
+Or using Node.js:
 
-# Using Node.js
+```bash
 npx http-server
 ```
 
-Then visit `http://localhost:8000` in your browser.
+Then open:
+
+```text
+http://localhost:8000
+```
 
 ---
 
 ## 📁 Project Structure
 
-```
+```text
 whatsapp-inbox-viewer/
+│
 ├── Code/
-│   ├── index.html        # Main HTML structure
-│   ├── function.js       # Core functionality and logic
-│   ├── style.css         # Styling and responsive design
-│   ├── wp.png            # Preview screenshot
-│   ├── wpp.png           # Preview screenshot
-│   ├── up.png            # Feature preview
-│   ├── up1.png           # Feature preview
-│   ├── up2.png           # Feature preview
-│   ├── up3.png           # Feature preview
-│   └── README.md         # Project documentation
-├── LICENSE               # MIT License
-└── .gitignore           # Git ignore rules
+│   ├── index.html          # Main application
+│   ├── function.js         # Application logic
+│   ├── style.css           # UI styling and responsive design
+│   │
+│   ├── wp.png              # Main preview
+│   ├── wpp.png             # Additional preview
+│   ├── up.png              # Feature preview
+│   ├── up1.png             # Dark mode / filter preview
+│   ├── up2.png             # Search / statistics preview
+│   └── up3.png             # Additional feature preview
+│
+├── README.md               # Project documentation
+├── LICENSE                 # MIT License
+└── .gitignore              # Git configuration
 ```
 
 ---
 
 ## 🛠️ Technology Stack
 
-| Technology | Purpose |
-|-----------|---------|
-| **HTML5** | Semantic markup and structure |
-| **CSS3** | Styling, animations, and responsive layout |
-| **JavaScript (Vanilla)** | File parsing, DOM manipulation, interactivity |
+| Technology             | Purpose                                                              |
+| ---------------------- | -------------------------------------------------------------------- |
+| **HTML5**              | Application structure                                                |
+| **CSS3**               | Styling, animations, and responsive layout                           |
+| **Vanilla JavaScript** | File parsing, DOM manipulation, search, filtering, and interactivity |
 
-### Key Advantages
-- ✅ No external dependencies or frameworks
-- ✅ Lightweight and fast (< 50KB total)
-- ✅ Works completely offline
-- ✅ Privacy-focused (no data sent to servers)
-- ✅ Cross-browser compatible
+### Why These Technologies?
+
+* ✅ No frameworks required
+* ✅ No build system required
+* ✅ Lightweight architecture
+* ✅ Fast browser-based processing
+* ✅ Easy to understand and modify
+* ✅ Can work offline after the application files are available locally
 
 ---
 
 ## 📖 Usage Guide
 
-### Basic Chat Viewing
-1. Upload your WhatsApp `.txt` file
-2. Messages automatically display in chat bubble format
-3. Scroll through the conversation naturally
+### 💬 View a Chat
 
-### Search Messages
-- Use the search bar to find specific keywords
-- Matching messages highlight in yellow
-- Navigate through results with arrow buttons
+1. Upload a WhatsApp `.txt` export.
+2. The application parses the messages automatically.
+3. Messages appear in a WhatsApp-inspired chat interface.
+4. Scroll through the conversation normally.
 
-### Filter Messages
-- **All**: Display all messages in the chat
-- **User**: Show only your sent messages (green bubbles)
-- **Other**: Show only received messages (dark bubbles)
+### 🔍 Search Messages
 
-### Toggle Themes
-- Click the moon/sun icon to switch between dark and light modes
-- Your preference is remembered for future sessions
+Use the search field to:
 
-### View Statistics
-- Access the statistics panel to see:
-  - Total message count
-  - Messages sent by you
-  - Messages received from others
+* Find specific words.
+* Search names or phrases.
+* Locate messages in large conversations.
+* Highlight matching results.
+
+### 🏷️ Filter Messages
+
+Available filters:
+
+| Filter    | Description                              |
+| --------- | ---------------------------------------- |
+| **All**   | Display all messages                     |
+| **User**  | Display your sent messages               |
+| **Other** | Display messages from other participants |
+
+### 🌙 Theme
+
+Use the theme button to switch between:
+
+* Dark Mode
+* Light Mode
+
+Your selected preference can be remembered for future sessions.
+
+### 📊 Statistics
+
+The statistics section can display:
+
+* Total messages
+* Messages sent by you
+* Messages received from others
 
 ---
 
-## 🎯 Supported Chat File Format
+## 🎯 Supported Chat Format
 
-WhatsApp exports `.txt` files in the following format:
+The application supports standard WhatsApp exported `.txt` conversations.
 
-```
+Example:
+
+```text
 [12/3/26, 10:30:45 AM] Your Name: Hey there!
 [12/3/26, 10:31:12 AM] Their Name: Hi! How are you?
 [12/3/26, 10:32:00 AM] Your Name: <Media omitted>
 ```
 
-**File Requirements:**
-- ✅ Standard WhatsApp export format (.txt)
-- ✅ Any chat language supported
-- ✅ Supports both group and private chats
-- ✅ Any file size (tested up to 100MB+)
+### Supported Content
+
+* ✅ Standard WhatsApp `.txt` exports
+* ✅ Private conversations
+* ✅ Group conversations
+* ✅ Multiple chat languages
+* ✅ Media-omitted messages
+* ✅ Large exported conversations
+
+> Actual parsing compatibility may vary depending on the WhatsApp export format and device locale.
 
 ---
 
 ## 🔐 Privacy & Security
 
-- 🔒 **100% Client-Side Processing** - Your chat data never leaves your device
-- 🛡️ **No Backend Server** - No data collection or logging
-- 🚫 **No Cookies or Tracking** - Complete privacy guaranteed
-- ✅ **Open Source** - Full transparency, audit the code yourself
+Privacy is one of the main design principles of this project.
+
+* 🔒 **Client-Side Processing** — Chat files are processed in the browser.
+* 🛡️ **No Chat Backend** — The application does not require a server to process uploaded chats.
+* 🚫 **No Chat Upload Required** — Your conversation does not need to be sent to a remote server.
+* 📂 **Local File Processing** — The selected `.txt` file is read by the browser.
+* 👨‍💻 **Open Source** — The source code is publicly available for inspection.
+
+> The website may be hosted online, but the exported chat content is intended to be processed locally in the browser.
 
 ---
 
-## 🔮 Roadmap & Future Improvements
+## 🔮 Roadmap
 
-### Planned Features
-- 📅 Date separators between different dates
-- 🖼️ Media support (images, videos, documents)
-- 👤 Profile avatars and user identification
-- 📊 Advanced statistics and analytics
-- 🎨 Custom themes and color schemes
-- 📥 Export chat as PDF or image
-- 🔔 Message notifications/indicators
-- 📱 Progressive Web App (PWA) support
+Future improvements may include:
+
+* 📅 Date separators between different dates
+* 🖼️ Media preview and media file support
+* 👤 Profile avatars and improved participant identification
+* 📊 Advanced chat analytics
+* 🎨 Custom themes and color schemes
+* 📥 Export conversations as PDF or images
+* 🔔 Additional message indicators
+* 📱 Progressive Web App (PWA) support
+* 🚀 Performance improvements for extremely large chat files
 
 ---
 
-## 📝 Update History
+## 📝 Changelog
 
-### Version 2.0 - March 24, 2026
-**Major Update - Advanced Features Release**
+### Version 2.0 — March 24, 2026
 
-#### New Features
-- ✅ **Seen Indicators** - Double tick (✔✔) for read messages
-- ✅ **Navigation Button** - Jump to first message instantly
-- ✅ **Search Highlighting** - Yellow highlighting for search results
-- ✅ **Message Filtering** - View All/User/Other messages separately
-- ✅ **Theme Toggle** - Dark and Light mode support
-- ✅ **Media Detection** - Identify `<Media omitted>` messages
-- ✅ **Statistics Panel** - Message count breakdown
-- ✅ **Smooth Scrolling** - Enhanced UX on navigation
+**Major Update — Advanced Features Release**
 
-#### Improvements
-- 🎨 Enhanced responsive layout for all devices
-- ⚡ Optimized performance and loading speed
-- 🐛 Bug fixes and stability improvements
-- 📱 Better mobile experience
+#### Added
 
-### Version 1.0 - March 12, 2026
+* ✅ WhatsApp-style double-tick indicators
+* ✅ Quick navigation
+* ✅ Search highlighting
+* ✅ Message filtering
+* ✅ Dark and Light mode
+* ✅ Media-omitted message detection
+* ✅ Chat statistics
+* ✅ Smooth scrolling
+
+#### Improved
+
+* 🎨 Responsive interface
+* ⚡ Rendering performance
+* 📱 Mobile experience
+* 🐛 Stability and bug fixes
+
+---
+
+### Version 1.0 — March 12, 2026
+
 **Initial Release**
 
-- Basic WhatsApp-style chat viewer
-- File upload and `.txt` parsing
-- Message bubble styling (User & Other)
-- Auto-scroll to latest message
-- Responsive design for desktop and mobile
+* Basic WhatsApp-inspired chat viewer
+* `.txt` file upload
+* WhatsApp chat parsing
+* Message bubble interface
+* User/other message differentiation
+* Automatic scrolling
+* Responsive design
 
 ---
-
-
 
 ## 🐛 Bug Reports & Feature Requests
 
-Found a bug or have a great idea? Let us know!
+Found a bug or have an idea for a new feature?
 
-- **Bug Report**: [Open an Issue](https://github.com/mhhridoy7907/issues)
-- **Feature Request**: [Suggest an Enhancement](https://github.com/mhhridoy7907/issues)
+* 🐛 [**Report a Bug**](https://github.com/mhhridoy7907/whatsapp-inbox-viewer/issues)
+* 💡 [**Request a Feature**](https://github.com/mhhridoy7907/whatsapp-inbox-viewer/issues)
 
-Please include:
-- Detailed description of the issue
-- Steps to reproduce (for bugs)
-- Screenshots or examples
-- Your browser and OS information
+When reporting an issue, please include:
+
+* A clear description of the problem
+* Steps to reproduce the issue
+* Screenshots or examples if available
+* Browser and operating system information
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+If you would like to contribute:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Test the application.
+5. Commit your changes.
+6. Open a Pull Request.
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
-### What This Means
-- ✅ Free for personal and commercial use
-- ✅ You can modify and distribute
-- ⚠️ Must include original license and copyright notice
+See the [LICENSE](LICENSE) file for the complete license text.
+
+### MIT License Allows
+
+* ✅ Personal use
+* ✅ Commercial use
+* ✅ Modification
+* ✅ Distribution
+* ✅ Private use
+
+The original copyright and license notice must be retained.
 
 ---
 
 ## 🙏 Acknowledgments
 
-- **Inspiration**: WhatsApp's beautiful UI/UX design
-- **Community**: Thanks to everyone who provides feedback and suggestions
-- **Contributors**: All who help improve this project
+* **WhatsApp** — Inspiration for the familiar chat interface and user experience.
+* **Open Source Community** — Inspiration, feedback, and development resources.
+* **Users & Contributors** — Everyone who provides feedback and helps improve the project.
+
+> This project is an independent open-source application and is not affiliated with or endorsed by WhatsApp or Meta.
 
 ---
 
-## 📞 Support & Contact
+## 👨‍💻 Author
 
-- **Author**: Murad Hasan Hridoy
-- **GitHub**: [@mhhridoy7907](https://github.com/mhhridoy7907)
-- **Live Demo**: [WhatsApp Inbox Viewer](https://chatviewer-2d185.web.app/)
+**MH Hridoy**
+
+* Live Demo: [WhatsApp Inbox Viewer](https://chatviewer-2d185.web.app/)
 
 ---
 
 ## ⭐ Show Your Support
 
-If you find this project helpful, please consider:
-- ⭐ Starring the repository
-- 🐦 Sharing with friends
-- 📢 Spreading the word on social media
-- 💬 Providing feedback and suggestions
+If you find **WhatsApp Inbox Viewer** useful:
+
+* ⭐ Star the repository
+* 🐛 Report bugs
+* 💡 Suggest new features
+* 🤝 Contribute improvements
+* 📢 Share the project with others
+
+Every contribution and piece of feedback helps improve the project.
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by [Murad Hasan Hridoy](https://github.com/mhhridoy7907)**
+### Made with ❤️ by **Murad Hasan Hridoy**
+
+**WhatsApp Inbox Viewer**
 
 *Last Updated: March 24, 2026*
 
