@@ -7,6 +7,7 @@
 [![Version](https://img.shields.io/badge/Version-2.0-blue)](https://github.com/mhhridoy7907/whatsapp-inbox-viewer)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
+
 **A lightweight, privacy-focused WhatsApp chat viewer for exported `.txt` conversations.**
 
 Transform plain WhatsApp chat exports into a clean, searchable, filterable, and WhatsApp-inspired chat interface — directly in your browser.
@@ -441,6 +442,8 @@ The original copyright and license notice must be retained.
 
 **MH Hridoy**
 
+**WhatsApp: +880 1962-388570**
+
 * Live Demo: [WhatsApp Inbox Viewer](https://chatviewer-2d185.web.app/)
 
 ---
@@ -459,9 +462,11 @@ Every contribution and piece of feedback helps improve the project.
 
 ---
 
+
+
 <div align="center">
 
-### Made with ❤️ by **Murad Hasan Hridoy**
+### Made with ❤️ by **MH Hridoy**
 
 **WhatsApp Inbox Viewer**
 
